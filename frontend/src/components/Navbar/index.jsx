@@ -1,13 +1,13 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavbarHeader = () => {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <h3 className="title">Typescript React Boilerplate</h3>
+          <h3 className="title">Powerlifting Program</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
